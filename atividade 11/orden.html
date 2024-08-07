@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+     function ordenarCrescente(num1, num2, num3) {
+            let numeros = [num1, num2, num3];
+            numeros.sort((a, b) => a - b);
+            return numeros;
+        }
+
+      
+        num1 = 10;
+        num2 = 5;
+        num3 = 7;
+
+         numerosOrdenados = ordenarCrescente(num1, num2, num3);
+        alert("Números em ordem crescente: " + numerosOrdenados.join(", "));
+</script>
+<body>
+    
+</body>
+</html>

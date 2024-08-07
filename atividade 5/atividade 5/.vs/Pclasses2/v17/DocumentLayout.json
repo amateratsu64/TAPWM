@@ -1,0 +1,153 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|c:\\users\\0031432412024\\downloads\\pclasses2\\pclasses2\\frmhorista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\frmhorista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|c:\\users\\0031432412024\\downloads\\pclasses2\\pclasses2\\frmhorista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\frmhorista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|c:\\users\\0031432412024\\downloads\\pclasses2\\pclasses2\\horista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\horista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|c:\\users\\0031432412024\\downloads\\pclasses2\\pclasses2\\mensalista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\mensalista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|c:\\users\\0031432412024\\downloads\\pclasses2\\pclasses2\\frmmensalista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\frmmensalista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|c:\\users\\0031432412024\\downloads\\pclasses2\\pclasses2\\frmmensalista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\frmmensalista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|C:\\Users\\0031432412024\\Downloads\\Pclasses2\\pclasses2\\enpregado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\enpregado.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|C:\\Users\\0031432412024\\Downloads\\Pclasses2\\pclasses2\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{BBAA841B-5C0E-4DBA-B16B-989D5F62A612}|Pclasses2\\Pclasses2.csproj|solutionrelative:pclasses2\\form1.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Horista.cs",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Horista.cs",
+              "RelativeDocumentMoniker": "Pclasses2\\Horista.cs",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Horista.cs",
+              "RelativeToolTip": "Pclasses2\\Horista.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwBQAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:41:27.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmMensalista.cs",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmMensalista.cs",
+              "RelativeDocumentMoniker": "Pclasses2\\frmMensalista.cs",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmMensalista.cs",
+              "RelativeToolTip": "Pclasses2\\frmMensalista.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAADEAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:27:06.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Mensalista.cs",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Mensalista.cs",
+              "RelativeDocumentMoniker": "Pclasses2\\Mensalista.cs",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Mensalista.cs",
+              "RelativeToolTip": "Pclasses2\\Mensalista.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwA0AAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:19:03.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmHorista.cs",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmHorista.cs",
+              "RelativeDocumentMoniker": "Pclasses2\\frmHorista.cs",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmHorista.cs",
+              "RelativeToolTip": "Pclasses2\\frmHorista.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAIAwwC0AAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:09:04.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmHorista.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmHorista.cs",
+              "RelativeDocumentMoniker": "Pclasses2\\frmHorista.cs",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmHorista.cs [Design]",
+              "RelativeToolTip": "Pclasses2\\frmHorista.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:10:05.748Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmMensalista.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmMensalista.cs",
+              "RelativeDocumentMoniker": "Pclasses2\\frmMensalista.cs",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\frmMensalista.cs [Design]",
+              "RelativeToolTip": "Pclasses2\\frmMensalista.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:27:01.162Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Enpregado.cs",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Enpregado.cs",
+              "RelativeDocumentMoniker": "Pclasses2\\Enpregado.cs",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Enpregado.cs",
+              "RelativeToolTip": "Pclasses2\\Enpregado.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAowDAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T20:03:24.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Form1.resx",
+              "DocumentMoniker": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Form1.resx",
+              "RelativeDocumentMoniker": "Pclasses2\\Form1.resx",
+              "ToolTip": "C:\\Users\\0031432412024\\Downloads\\Pclasses2\\Pclasses2\\Form1.resx",
+              "RelativeToolTip": "Pclasses2\\Form1.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-03-20T20:03:24.34Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
