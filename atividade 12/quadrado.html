@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+</head>
+<body>
+    
+    <button onclick="calcular()">Calcular</button>
+
+    <script>
+        function calcular() {
+            var num1 = parseInt(prompt("Digite o número 1:"));
+            var num2 = parseInt(prompt("Digite o número 2:"));
+            var num3 = parseInt(prompt("Digite o número 3:"));
+
+            var numeros = [num1, num2, num3];
+
+            function fazerCalculos(a, b, c) {
+                var soma = a + b + c;
+                var quadrado1 = a * a;
+                var quadrado2 = b * b;
+                return "A soma dos três números é: " + soma + 
+                       ", o quadrado do primeiro é: " + quadrado1 + 
+                       ", e o quadrado do segundo é: " + quadrado2;
+            }
+
+            var resultadoTexto = fazerCalculos.apply(null, numeros);
+
+            alert(resultadoTexto);
+        }
+    </script>
+</body>
+</html>
