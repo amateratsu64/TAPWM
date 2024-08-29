@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contas Bancárias</title>
+</head>
+<body>
+    <script>
+        class Conta {
+            constructor(nomeCorrentista, banco, numeroConta, salario) {
+                this.nomeCorrentista = nomeCorrentista;
+                this.banco = banco;
+                this.numeroConta = numeroConta;
+                this.salario = salario;
+            }
+
+            descricao() {
+                return `Nome: ${this.nomeCorrentista}\nBanco: ${this.banco}\nNúmero da Conta: ${this.numeroConta}\nSalário: ${this.salario}`;
+            }
+        }
+
+        class ContaCorrente extends Conta {
+            constructor(nomeCorrentista, banco, numeroConta, salario, saldoEspecial) {
+                super(nomeCorrentista, banco, numeroConta, salario);
+                this.saldoEspecial = saldoEspecial;
+            }
+
+            descricao() {
+                return `${super.descricao()}\nSaldo Especial: ${this.saldoEspecial}`;
+            }
+        }
+
+        class ContaPoupanca extends Conta {
+            constructor(nomeCorrentista, banco, numeroConta, salario, juros, dataVencimento) {
+                super(nomeCorrentista, banco, numeroConta, salario);
+                this.juros = juros;
+                this.dataVencimento = dataVencimento;
+            }
+
+            descricao() {
+                return `${super.descricao()}\nJuros: ${this.juros}%\nData de Vencimento: ${this.dataVencimento}`;
+            }
+        }
+
+        var contaCorrente = new ContaCorrente('Maria Silva', 'Banco Exemplo', '123456', 3000, 500);
+        alert('Conta Corrente:\n' + contaCorrente.descricao());
+
+        var contaPoupanca = new ContaPoupanca('João Pereira', 'Banco Exemplo', '654321', 2500, 3.5, '31/12/2024');
+        alert('Conta Poupança:\n' + contaPoupanca.descricao());
+    </script>
+</body>
+</html>
