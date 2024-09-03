@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janelas</title>
+</head>
+<body>
+    <h1 id="titulo">Abra a Janela</h1>
+    <img id="janela" src="imagens/janela-fechada.png" alt="Janela Fechada">
+    
+    <script>
+        var janela = document.getElementById('janela');
+        var titulo = document.getElementById('titulo');
+
+        janela.onmouseover = function() {
+            janela.src = 'imagens/janela-aberta.png';
+            titulo.innerHTML = 'Janela Aberta';
+        }
+
+        janela.onmouseout = function() {
+            janela.src = 'imagens/janela-fechada.png';
+            titulo.innerHTML = 'Janela Fechada';
+        }
+
+        janela.onclick = function() {
+            janela.src = 'imagens/janela-quebrada.png';
+            titulo.innerHTML = 'Janela Quebrada';
+        }
+    </script>
+</body>
+</html>
