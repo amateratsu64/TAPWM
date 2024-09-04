@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function transformarTexto() {
+            var inputTexto = document.getElementById("texto");
+            var maiusculasCheckbox = document.getElementById("maiusculas");
+            var minusculasCheckbox = document.getElementById("minusculas");
+
+            if (maiusculasCheckbox.checked) {
+                inputTexto.value = inputTexto.value.toUpperCase();
+            } else if (minusculasCheckbox.checked) {
+                inputTexto.value = inputTexto.value.toLowerCase();
+            }
+        }
+    </script>
+</head>
+<body>
+    <input id="texto" type="text"><br>
+
+    <input type="radio" id="maiusculas" name="transformacao" value="maiusculas">
+    <label for="maiusculas">Maiúsculas</label><br>
+    
+    <input type="radio" id="minusculas" name="transformacao" value="minusculas">
+    <label for="minusculas">Minúsculas</label><br>
+
+    <input type="button" onclick="transformarTexto()" value="Transformar">
+</body>
+</html>
