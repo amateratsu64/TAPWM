@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Seleção de Cursos</title>
+</head>
+<body>
+    <h1>Escolha um curso da Fatec Sorocaba</h1>
+
+    <select id="cursos" onchange="abrirCurso()">
+        <option value="">Selecione um curso...</option>
+        <option value="ads">Análise e Desenvolvimento de Sistemas</option>
+        <option value="gti">Gestão da Tecnologia da Informação</option>
+        <option value="logistica">Logística</option>
+        <option value="mecatronica">Mecatrônica Industrial</option>
+        <option value="comex">Comércio Exterior</option>
+    </select>
+
+    <script>
+        function abrirCurso() {
+            var curso = document.getElementById("cursos").value;
+
+            if (curso !== "") {
+                var confirma = confirm("Você quer abrir o curso " + curso + "?");
+                
+                if (confirma) {
+                    var novaJanela = window.open("", "", "width=600,height=300");
+                    
+                    if (curso === "ads") {
+                        novaJanela.document.write("<h1>Análise e Desenvolvimento de Sistemas</h1>");
+                        novaJanela.document.write("<p>Curso focado em desenvolvimento de sistemas e programação.</p>");
+                    } else if (curso === "gti") {
+                        novaJanela.document.write("<h1>Gestão da Tecnologia da Informação</h1>");
+                        novaJanela.document.write("<p>Curso voltado para administração de sistemas de TI.</p>");
+                    } else if (curso === "logistica") {
+                        novaJanela.document.write("<h1>Logística</h1>");
+                        novaJanela.document.write("<p>Curso de planejamento logístico e gestão de estoques.</p>");
+                    } else if (curso === "mecatronica") {
+                        novaJanela.document.write("<h1>Mecatrônica Industrial</h1>");
+                        novaJanela.document.write("<p>Curso que combina mecânica e eletrônica para automação.</p>");
+                    } else if (curso === "comex") {
+                        novaJanela.document.write("<h1>Comércio Exterior</h1>");
+                        novaJanela.document.write("<p>Curso voltado para negociações e relações comerciais internacionais.</p>");
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>
