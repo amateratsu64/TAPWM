@@ -1,6 +1,4 @@
-var express = require('express');
-var app=express();
-app.set('view engine','ejs');
+var app = require('./atividade22/app/config/server')
 app.get('/', function(red,res){
     res.send("home/index");
 })
@@ -17,6 +15,6 @@ app.get('/informacao/professores', function(red,res){
     res.render("informacao/professores")
 })
 app.listen(3000, function(){
- console.log("asesando o server")   
+ console.log("server iniciado ")   
 }
 )
